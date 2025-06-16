@@ -16,6 +16,8 @@
             _categories.Add(category);
         }
 
+
+
         public static List<Category> GetCategories()
         {
             return _categories;
@@ -52,6 +54,12 @@
 
         }
 
+
+
+
+
+
+
         public static void DeleteCategory(int categoryId)
         {
             var category = _categories.FirstOrDefault(x => x.Id == categoryId);
@@ -61,5 +69,9 @@
             }
 
         }
+   
+            
+
+        
     }
 }
