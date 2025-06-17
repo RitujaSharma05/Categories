@@ -28,7 +28,8 @@ namespace Categories.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
-            
+            //return View(category);
+
         }
 
     }
