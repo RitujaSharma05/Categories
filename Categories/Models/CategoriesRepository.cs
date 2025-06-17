@@ -44,8 +44,8 @@
                 return;
             }
 
-           // var categoryToUpdate = GetCategoryById(categoryId);
-            var categoryToUpdate = _categories.FirstOrDefault(c => c.Id ==categoryId);
+            var categoryToUpdate = GetCategoryById(categoryId);
+            //var categoryToUpdate = _categories.FirstOrDefault(c => c.Id ==categoryId);
             if (categoryToUpdate != null)
             {
                 category.Name = categoryToUpdate.Name;
