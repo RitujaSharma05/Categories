@@ -10,6 +10,7 @@ namespace Categories.Controllers
             var products = ProductsRepository.GetProducts();
             return View(products);
             //returnView(Product);
+            //returnView(Product);
         }
     }
 }
